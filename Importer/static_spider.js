@@ -178,9 +178,9 @@ function get_x_datapack(offset, index) {
         return html
     }
 
-    if (u32(offset + 36) || u32(offset + 40) || u32(offset + 44) || u32(offset + 64) || u32(offset + 68) || u32(offset + 72) || u32(offset + 76) || u32(offset + 96) || u32(offset + 116) || u32(offset + 8) !== u32(offset + 32)) {
-        ü(1, [u32, 0, u32, 4, u32, 8, u32, 12, u32, 16, u32, 20, u32, 24, u32, 28, u32, 32, u32, 36, u32, 40, u32, 44, u32, 48, u32, 52, u32, 56, u32, 60, u32, 64, u32, 68, u32, 72, u32, 76, u32, 80, u32, 84, u32, 88, u32, 92, u32, 96, u32, 100, u32, 104, u32, 108, u32, 112, u32, 116], offset)
-    }
+    // if (u32(offset + 36) || u32(offset + 40) || u32(offset + 44) || u32(offset + 64) || u32(offset + 68) || u32(offset + 72) || u32(offset + 76) || u32(offset + 96) || u32(offset + 116) || u32(offset + 8) !== u32(offset + 32)) {
+    //     ü(1, [u32, 0, u32, 4, u32, 8, u32, 12, u32, 16, u32, 20, u32, 24, u32, 28, u32, 32, u32, 36, u32, 40, u32, 44, u32, 48, u32, 52, u32, 56, u32, 60, u32, 64, u32, 68, u32, 72, u32, 76, u32, 80, u32, 84, u32, 88, u32, 92, u32, 96, u32, 100, u32, 104, u32, 108, u32, 112, u32, 116], offset)
+    // }
 
     //get ordered list
 
